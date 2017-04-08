@@ -1,0 +1,11 @@
+public class MainClass {
+
+	public static void main(String[] args) {
+		Car car = new Car();
+		car.drive(3);
+		
+		Fast Car myCar = new Fast Car();
+		myCar.drive(4);
+		}
+
+	}

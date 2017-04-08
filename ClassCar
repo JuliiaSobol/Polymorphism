@@ -1,0 +1,21 @@
+public class Car {
+
+	
+	public void start(){
+		double distance;
+		System.out.println("I am start driving");
+	}
+	
+	public void stop(){
+		System.out.println("I am stop driving");
+	}
+	
+	public double drive (double howLong){
+		double distance = howLong*60.0;
+		System.out.println("Your time equals "+ distance);
+		return distance;
+		
+		
+	}
+
+}
